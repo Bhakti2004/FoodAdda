@@ -68,7 +68,7 @@ const Shipping = () => {
     const jsonData = JSON.stringify(orderData);
     console.log(jsonData);
 
-    fetch("http://localhost:3000/api/orders/postorder", {
+    fetch("http://52.66.69.5/api/orders/postorder", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -18,7 +18,7 @@ const Users = () => {
       }
 
       const response = await fetch(
-        `http://localhost:3000/api/users/admin/${password}` // Pass only password in the URL
+        `http://52.66.69.5/api/users/admin/${password}` // Pass only password in the URL
       );
 
       if (response.ok) {

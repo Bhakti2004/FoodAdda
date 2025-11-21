@@ -15,7 +15,7 @@ const Register = () => {
       setRegisterError(false);
 
       // Make the POST request to the server
-      fetch("http://localhost:3000/api/users/register", {
+      fetch("http://52.66.69.5/api/users/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
