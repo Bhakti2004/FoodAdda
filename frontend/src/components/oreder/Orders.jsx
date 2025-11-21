@@ -12,7 +12,7 @@ const Orders = () => {
     try {
       const formattedName = userName.trim();
       const response = await fetch(
-        `http://52.66.69.5:5000/api/orders/admin/${formattedName}`
+        `${process.env.REACT_APP_API_URL}/api/orders/admin/${formattedName}`
       );
   console.log(response);
       if (response.ok) {
